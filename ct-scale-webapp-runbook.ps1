@@ -8,7 +8,7 @@ Param(
     [Parameter(Mandatory = $true)]
     [String] $WorkerSize,
     [Parameter(Mandatory = $true)]
-    [Int] $WorkerSize
+    [Int] $NumberOfWorkers
 )
 
 $connectionName = "AzureRunAsConnection"
